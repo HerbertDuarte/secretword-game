@@ -1,0 +1,113 @@
+.gamescreen p{
+  color: yellow;
+  margin: 10px;
+}
+.word{
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  border: 10px solid yellow;
+  padding: 10px;
+  flex-wrap: wrap;
+  width: fit-content;
+  margin: 15px auto;
+}
+
+.letter{
+  background-color: white;
+  font-size: 3.5em;
+  width: 1.2em;
+  margin: 0 3px;
+  padding: 5px 0;
+  text-transform: uppercase;
+  border-radius: 3px;
+  color: black;
+}
+.blankLetter{
+  color: transparent; 
+}
+
+.instruction{
+  margin-bottom: -5px;
+  margin-top: 10px;
+  font-size: 1.2em;
+  font-weight: normal;
+}
+
+#letter{
+  width: 50px;
+  padding: 5px 0;
+  border-radius: 20%;
+  font-size: 1.8em;
+  text-align: center;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: blue;
+  color: white;
+  text-transform: uppercase;
+}
+form{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.category{
+  text-transform: uppercase;
+  color: yellow;
+}
+
+.wrongLetters{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.wl{
+  text-transform: uppercase;
+}
+
+#score{
+  color:white;
+}
+.score span{
+  color: yellow;
+  font-weight: bold;
+}
+
+@media (max-width:900px) {
+  .letter{
+    font-size: 3em;
+    width: 1em;
+  }
+}
+@media (max-width:660px) {
+  .letter{
+    font-size: 2.5em;
+    width: 1em;
+    margin: 0;
+  }
+  .word{
+    margin: 20px 0;
+    border-width: 5px;
+  }
+}
+
+@media (max-width:490px) {
+  .letter{
+    font-size: 2em;
+    width: 1em;
+  }
+}
+@media (max-width:390px) {
+  .word{
+    border-width: 2px;
+    padding: 10px;
+  }
+}

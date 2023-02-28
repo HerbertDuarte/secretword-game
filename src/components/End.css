@@ -1,0 +1,12 @@
+.endscreen p{
+  color: yellow;
+  margin: 10px;
+}
+#finalScore{
+  color: white;
+}
+
+.finalScore span{
+  color: yellow;
+  font-size: 1.5em;
+}
